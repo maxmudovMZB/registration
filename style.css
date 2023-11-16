@@ -1,0 +1,257 @@
+/*-----------------START minimalizim------------------*/
+
+body {
+    background-color: #18361f;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-family: Rubik ;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+/*-------------END minimalizm---------------*/
+
+
+/*----------------START  header-------------------*/
+
+.main  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Rubik;
+    }
+
+.topbar {
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+text-transform: uppercase;
+margin: 12px 20px;
+}    
+
+.america-flag {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    margin: 1px 12px;
+}
+
+.america {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 10px;
+}
+.spaces {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.spaces-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.spaces-com {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+}
+
+.space-h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.spaces-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background-color: #18361f;;
+    width: 172px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    border: 1px solid var(--btn-primary, #EE0979);
+    transition: all 0.6s;
+
+}
+
+.btn:hover {
+    border-radius: 500px;
+    background: linear-gradient(90deg, #EE0979 0%, #FF6A00 100%);
+    box-shadow: 0px 20px 30px 0px rgba(179, 34, 31, 0.20);
+    color: #fff;
+}
+
+/*----------------END  header-------------------*/
+
+
+/* Start title */
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-bottom: 50px;
+}
+
+.login {
+    margin-top: 220px;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #8B5D9A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+
+.enter {
+    width: 380px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    background: linear-gradient(90deg, #EE0979 0%, #FF6A00 100%);
+    box-shadow: 0px 20px 30px 0px #18361f;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.massage {
+    width: 380px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    background: #18361f;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 25px;
+}
+
+.padlock {
+    width: 20px;
+    height: 20px;
+}
+.eyes {
+    margin-left: 111px;
+    width: 30px;
+    height: 15px;
+}
+
+p {
+    color: #5d9a75;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+/* End title */
+
+
+/* start end section */
+
+.fivetext {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 110px;
+}
+
+.five {
+    color: #EEE;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.one {
+    margin-right: 110px;
+    color: #EEE;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.end {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.end-text {
+    margin-top: 20px;
+}
+
+
+/* end section */
